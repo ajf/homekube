@@ -1,2 +1,2 @@
 resources:
-- ../../bases/metallb
+- ../../../bases/metallb
