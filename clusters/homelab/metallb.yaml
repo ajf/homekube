@@ -1,0 +1,14 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: metallb
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/ajf/homekube.git
+    targetRevision: HEAD
+    path: clusters/homelab/metallb
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: metallb-system
