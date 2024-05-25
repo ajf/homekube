@@ -1,2 +1,4 @@
 resources:
 - ../../../bases/metallb
+- ipaddresspool.yaml
+- bgppeer.yaml
