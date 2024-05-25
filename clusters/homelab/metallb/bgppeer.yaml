@@ -1,7 +1,7 @@
 apiVersion: metallb.io/v1beta2
 kind: BGPPeer
 metadata:
-  name: sample
+  name: crux
   namespace: metallb-system
 spec:
   myASN: 4200000003
