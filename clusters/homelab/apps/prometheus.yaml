@@ -11,4 +11,4 @@ spec:
     path: clusters/homelab/prometheus-stack
   destination:
     server: https://kubernetes.default.svc
-    namespace: monitoring
+    namespace: prometheus-system
